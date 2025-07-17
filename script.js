@@ -24,7 +24,7 @@ for (const entry of res) {
 
 // 2.Напиши функцію countProps(obj), яка рахує кількість властивостей в об'єкті. Функція повертає число — кількість властивостей.
 
-const user = {
+const user2 = {
   hobby: "dancing",
   premium: true,
 };
