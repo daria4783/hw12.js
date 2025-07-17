@@ -28,16 +28,16 @@ const user2 = {
   hobby: "dancing",
   premium: true,
 };
-user.hobby = "skydiving";
-user.premium = false;
-user.mood = "happy";
-console.log(user);
+user2.hobby = "skydiving";
+user2.premium = false;
+user2.mood = "happy";
+console.log(user2);
 
 function countProps(obj) {
     return Object.keys(obj).length;
 }
 
-console.log(countProps(user));
+console.log(countProps(user2));
 
 
 // 3.Напиши функцію findBestEmployee(employees), яка приймає об'єкт співробітників і повертає ім'я найпродуктивнішого (який виконав більше всіх задач). Співробітники і кількість виконаних завдань містяться як властивості об'єкта в форматі "ім'я":"кількість задач".
